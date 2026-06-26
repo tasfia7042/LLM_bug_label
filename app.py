@@ -198,7 +198,7 @@ def push_to_github():
         df.at[i, "label"] = store["label"].get(i, np.nan)
         df.at[i, "reason"] = store["reason"].get(i, "")
 
-    repo = "ttasnim68/LLM_label_app"
+    repo = "tasfia7042/LLM_bug_label"
     path = "dataset/label_" + selected_user + ".csv"
     return save_data_to_github(df, token, repo, path)
 
