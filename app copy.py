@@ -11,8 +11,8 @@ import base64
 # Define available datasets
 DATASETS = {
     "Charles": "dataset/label_Charles.csv",
-    "Iury": "dataset/label_Iury.csv",
-    "Jessica": "dataset/label_Jessica.csv",
+    "annotator-1": "dataset/label_annotator-1.csv",
+    "annotator-2": "dataset/label_annotator-2.csv",
     "Jose": "dataset/label_Jose.csv",
     "Lukas": "dataset/label_Lukas.csv",
 }
@@ -23,6 +23,7 @@ st.title("Issue Report Labeling System")
 
 # Display two textboxes on top
 st.text_area("Criteria for Standard:", """
+A standard bug report is a bug report that clearly describes the issue, allowing developers to spend their time fixing the bug instead of understanding it.
 Cell contains most of the following key values:
 
 Quality Requirements:

@@ -12,8 +12,8 @@ import base64
 # Define available datasets
 DATASETS = {
     # "Charles": "dataset/label_Charles.csv",
-    "Iury": "dataset/label_Iury.csv",
-    "Jessica": "dataset/label_Jessica.csv",
+    "annotator-1": "dataset/label_annotator-1.csv",
+    "annotator-2": "dataset/label_annotator-2.csv",
     # "Jose": "dataset/label_Jose.csv",
     # "Lukas": "dataset/label_Lukas.csv",
 }
